@@ -1,1 +1,47 @@
 /* Your own custom styles should be here */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.services-list {
+  list-style: outside none '- ';
+}
+
+.services-list li::marker {
+  color: blue;
+}
+
+.article-list {
+  list-style: outside none none;
+  padding: 0;
+}
+
+.article-list li {
+  position: relative;
+}
+
+.article-list li::before {
+  content: 'M';
+  position: absolute;
+  margin-left: -2em;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 0em 0.1em;
+  line-height: 1;
+  top: 5px;
+  font-family: 'Merriweather', serif;
+  border-radius: 3px;
+}
+
+.footer-list {
+  list-style: outside none none;
+  padding: 0;
+}
+
+.footer-list-logos {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}

@@ -7,24 +7,71 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="style/index.css" />
     <title>Significa</title>
   </head>
   <body>
+    <!-- Navigation -->
+    <header class="container py-4">
+      <div class="navbar navbar-expand-md navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="Significa Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul
+          class="nav justify-content-end collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Showcase</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Labs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <!-- Tagline -->
-    <div class="jumbotron jumbotron-fluid bg-white">
+    <div class="jumbotron jumbotron-fluid bg-white py-5 my-5">
       <div class="container">
-        <h1 class="display-4 col-5">Your go-to digital agency</h1>
+        <h1 class="display-4 col-md-6">Your go-to digital agency</h1>
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid bg-white">
       <div class="container">
-        <h4 class="col-7">
+        <h4 class="col-md-8">
           Significa is a digital design-led agency mainly focused on Product
           Development.
         </h4>
@@ -35,12 +82,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md">
-          <div class="card border-0" style="width: 18rem">
-            <img
-              src="images/2.png"
-              class="card-img-top shadow-lg"
-              alt="Oopsie"
-            />
+          <div class="card border-0">
+            <img src="images/2.png" class="card-img-top shadow" alt="Oopsie" />
             <div class="card-body">
               <h5 class="card-title">
                 Oopsie for users — Your favourite food, one click away!
@@ -52,10 +95,10 @@
           </div>
         </div>
         <div class="col-md">
-          <div class="card border-0" style="width: 18rem">
+          <div class="card border-0">
             <img
               src="images/1.png"
-              class="card-img-top shadow-lg"
+              class="card-img-top shadow"
               alt="Opennode"
             />
             <div class="card-body">
@@ -65,12 +108,8 @@
           </div>
         </div>
         <div class="col-md">
-          <div class="card border-0" style="width: 18rem">
-            <img
-              src="images/3.png"
-              class="card-img-top shadow-lg"
-              alt="AKASHA"
-            />
+          <div class="card border-0">
+            <img src="images/3.png" class="card-img-top shadow" alt="AKASHA" />
             <div class="card-body">
               <h5 class="card-title">
                 AKASHA — Open systems to expand our collective mind.
@@ -82,24 +121,302 @@
       </div>
     </div>
 
-    Showcase Services About Careers Labs Contact We build digital products
-    Having a design-led approach to what we do defines who we are. We take on
-    products from inception to launch, from business model to people's pocket,
-    from wireframe to continuous deployment. Strategy UX research Business
-    strategy Brand strategy Product strategy Product management Product design
-    Product design User experience User interface Brand development Illustration
-    Motion & Video Development Development Front-end engineering Web-app
-    development Native app development Development operations View services View
-    services What's new on Significa Labs Automating releases for UI Kits — How
-    to automate release logs and builds for your style guides Tutorial on Medium
-    An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
-    Article on Medium On creating synergies — Sharing without compromising our
-    identity Article on Medium Enter the Lab Drop by, we're hiring. We are an
-    open-minded, open-hearted team that loves the thrill of creating exciting
-    new projects. Drop us a line if you’re passionate and talented to do
-    everything you set your mind to. View careers Legal © 2019 Say
-    hello@significa.co (+351) 226 001 751 Links Home Showcase Services About
-    Careers Labs Contact Network Coletiv Adamant Follow us
+    <!-- Tagline2 -->
+    <div class="container">
+      <div class="row justify-content-between my-5 py-5">
+        <div class="col-md-4">
+          <h3 class="h1">We build digital products</h3>
+        </div>
+        <div class="col-md-7">
+          <p class="h4">
+            Having a design-led approach to what we do defines who we are. We
+            take on products from inception to launch, from business model to
+            people's pocket, from wireframe to continuous deployment.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-3">
+          <p class="h4">Strategy</p>
+          <ul class="h5 services-list px-0">
+            <li>UX research</li>
+            <li>Business strategy</li>
+            <li>Brand strategy</li>
+            <li>Product strategy</li>
+            <li>Product management</li>
+          </ul>
+        </div>
+        <div class="col-md-3 pt-5 pt-md-0">
+          <p class="h4">Product design</p>
+          <ul class="h5 services-list px-0">
+            <li>User experience</li>
+            <li>User interface</li>
+            <li>Brand development</li>
+            <li>Illustration</li>
+            <li>Motion & Video</li>
+          </ul>
+        </div>
+        <div class="col-md-3 pt-5 pt-md-0">
+          <p class="h4">Development</p>
+          <ul class="h5 services-list px-0">
+            <li>Front-end engineering</li>
+            <li>Web-app development</li>
+            <li>Native app development</li>
+            <li>Development operations</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center pb-5">
+        <p><a href="#" class="text-primary h5">View services →</a></p>
+      </div>
+    </div>
+
+    <!-- New in the blog -->
+    <div class="container text-white bg-dark py-5">
+      <div class="row">
+        <div class="col-md-3 offset-md-1">
+          <h3>What's new on Significa Labs</h3>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <ul class="article-list">
+            <li class="border-bottom border-secondary">
+              <p>
+                Automating releases for UI Kits — How to automate release logs
+                and builds for your style guides
+              </p>
+              <p>
+                <a href="#" class="text-light">Tutorial on Medium</a>
+              </p>
+            </li>
+            <li class="border-bottom border-secondary mt-3">
+              <p>
+                An iceberg sank the Titanic — But what’s that got to do with
+                text hierarchy?
+              </p>
+              <p>
+                <a href="#" class="text-light">Article on Medium</a>
+              </p>
+            </li>
+            <li class="border-bottom border-secondary mt-3">
+              <p>
+                On creating synergies — Sharing without compromising our
+                identity
+              </p>
+              <p>
+                <a href="#" class="text-light">Article on Medium</a>
+              </p>
+            </li>
+          </ul>
+          <p class="pt-2"><a href="#" class="text-muted">Enter the Lab →</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hiring -->
+    <div class="container">
+      <div class="row justify-content-between my-5 py-5">
+        <div class="col-md-4">
+          <h3 class="h1">Drop by, we're hiring.</h3>
+        </div>
+        <div class="col-md-7">
+          <p class="h4">
+            We are an open-minded, open-hearted team that loves the thrill of
+            creating exciting new projects. Drop us a line if you’re passionate
+            and talented to do everything you set your mind to.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center pb-5">
+        <p><a href="#" class="text-primary h5">View careers →</a></p>
+      </div>
+    </div>
+
+    <!-- Office images -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md">
+          <div class="card border-0">
+            <img src="images/4.png" class="card-img-top" alt="desktop" />
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card border-0">
+            <img src="images/5.png" class="card-img-top" alt="hallway" />
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card border-0">
+            <img src="images/6.png" class="card-img-top" alt="colleague" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container pt-5 my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h6>
+            <svg
+              width="17"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              class="Segg__Svg-sc-1k25znz-0 jKEMwp"
+            >
+              <path
+                d="M8.5 20C3.814 20 0 16.304 0 11.725 0 6.562 4.104 0 8.5 0S17 6.562 17 11.725C17 16.305 13.186 20 8.5 20zm0-1.887c3.671 0 6.632-2.869 6.632-6.388 0-4.251-3.494-9.838-6.632-9.838-3.138 0-6.632 5.587-6.632 9.838 0 3.52 2.96 6.388 6.632 6.388z"
+                fill-rule="nonzero"
+              ></path>
+            </svg>
+          </h6>
+          <small>Legal © 2019</small>
+        </div>
+        <div class="col-md-3">
+          <h6>Say</h6>
+          <ul class="footer-list">
+            <li>
+              <a href="mailto:hello@significa.co" class="text-dark"
+                >hello@significa.co</a
+              >
+            </li>
+            <li>
+              <a href="tel:(+351) 226 001 751" class="text-dark"
+                >(+351) 226 001 751</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>Links</h6>
+          <ul class="footer-list">
+            <li><a href="#" class="text-muted">Home</a></li>
+            <li><a href="#" class="text-dark">Showcase</a></li>
+            <li><a href="#" class="text-dark">Services</a></li>
+            <li><a href="#" class="text-dark">About</a></li>
+            <li><a href="#" class="text-dark">Careers</a></li>
+            <li><a href="#" class="text-dark">Labs</a></li>
+            <li><a href="#" class="text-dark">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>Network</h6>
+          <ul class="footer-list">
+            <li><a href="#" class="text-dark">Coletiv</a></li>
+            <li><a href="#" class="text-dark">Adamant</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>Follow us</h6>
+          <ul class="footer-list-logos">
+            <li>
+              <a href="#" class="text-dark">
+                <span class="sr-only">Github</span>
+                <svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="Github__Svg-sc-1puh0ps-0 mATBN"
+                >
+                  <path
+                    fill="#141124"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    d="M18.442 5.228a9.833 9.833 0 00-3.548-3.638A9.358 9.358 0 0010 .25C8.23.25 6.6.697 5.106 1.59a9.832 9.832 0 00-3.548 3.638C.686 6.759.25 8.43.25 10.244c0 2.178.62 4.136 1.86 5.876 1.24 1.74 2.841 2.943 4.805 3.61.228.044.398.014.508-.09a.515.515 0 00.165-.39l-.007-.703c-.004-.443-.006-.829-.006-1.158l-.292.052c-.186.035-.421.05-.705.045a5.241 5.241 0 01-.882-.09 1.949 1.949 0 01-.85-.391 1.65 1.65 0 01-.56-.8l-.126-.3c-.085-.199-.218-.42-.4-.663-.182-.243-.366-.408-.552-.495l-.089-.065a.941.941 0 01-.165-.156.716.716 0 01-.114-.182c-.026-.061-.005-.111.063-.15.068-.04.19-.058.368-.058l.254.038c.17.035.379.139.629.313.25.173.454.399.615.676.195.356.43.627.705.814.275.186.552.28.831.28.28 0 .52-.022.724-.066.203-.043.393-.108.571-.195.076-.581.284-1.028.622-1.34a8.5 8.5 0 01-1.301-.235 5.111 5.111 0 01-1.193-.507 3.44 3.44 0 01-1.022-.872c-.271-.347-.493-.803-.667-1.367-.173-.564-.26-1.214-.26-1.952 0-1.05.334-1.943 1.003-2.68-.313-.79-.284-1.675.089-2.655.245-.078.61-.02 1.092.176.482.195.835.362 1.06.5.224.14.404.257.54.352A8.808 8.808 0 0110 5.078c.838 0 1.65.112 2.438.338l.482-.312c.33-.209.72-.4 1.168-.573.448-.173.791-.221 1.028-.143.381.98.415 1.865.102 2.655.668.737 1.003 1.63 1.003 2.68 0 .738-.087 1.39-.26 1.959-.174.568-.398 1.023-.673 1.366a3.57 3.57 0 01-1.029.866c-.41.234-.808.403-1.193.507a8.492 8.492 0 01-1.301.235c.44.39.66 1.006.66 1.848v2.745c0 .156.053.286.159.39.105.104.272.135.501.091 1.964-.667 3.565-1.871 4.805-3.61 1.24-1.74 1.86-3.698 1.86-5.876 0-1.813-.437-3.485-1.308-5.016z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <span class="sr-only">Dribbble</span>
+                <svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="Dribbble__Svg-sc-1t3k9lk-0 gBPUAc"
+                >
+                  <g
+                    fill="none"
+                    fill-rule="evenodd"
+                    stroke="none"
+                    stroke-width="1"
+                  >
+                    <path
+                      fill="#111314"
+                      fill-rule="nonzero"
+                      d="M10 .25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S.25 15.385.25 10 4.615.25 10 .25zm1.29 11.086l-.01.004c-2.55.79-4.66 2.508-6.357 5.162A8.206 8.206 0 0010 18.25c1.07 0 2.091-.203 3.029-.574a39.2 39.2 0 00-1.74-6.34zm6.873-.133c-1.966-.406-3.765-.476-5.402-.21a40.528 40.528 0 011.658 5.974 8.249 8.249 0 003.738-5.726zm-7.964-2.477l-.046.016c-2.35.725-5.15 1.032-8.395.927a8.219 8.219 0 002.055 5.79c1.85-2.8 4.165-4.641 6.923-5.52-.17-.41-.35-.814-.537-1.213zm6.14-4.006l-.16.197c-1.18 1.414-2.703 2.511-4.565 3.295.207.445.405.898.594 1.357 1.838-.345 3.852-.306 6.035.12A8.206 8.206 0 0016.34 4.72zM6.41 2.572l-.158.077a8.265 8.265 0 00-4.298 5.526c2.947.084 5.468-.187 7.57-.81a30.729 30.729 0 00-3.115-4.793zM10 1.75c-.732 0-1.442.095-2.117.274a32.32 32.32 0 013.07 4.837c1.816-.752 3.252-1.823 4.316-3.208A8.209 8.209 0 0010 1.75z"
+                    ></path>
+                  </g></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <span class="sr-only">Behance</span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="Behance__Svg-sc-1m0mvup-0 jsUckO"
+                >
+                  <g
+                    fill="none"
+                    fill-rule="evenodd"
+                    stroke="none"
+                    stroke-width="1"
+                  >
+                    <path
+                      fill="#000"
+                      fill-rule="nonzero"
+                      d="M7.23 9.21H5.562V7.462h1.543c.145 0 .288.01.424.037.138.024.257.068.363.131.106.062.19.15.254.26a.887.887 0 01.092.43c0 .315-.092.544-.282.682-.191.14-.433.21-.726.21zm6.172.013c-.238 0-.435.04-.592.122-.154.08-.28.18-.377.298a1.07 1.07 0 00-.2.382c-.038.132-.061.252-.068.357h2.423c-.036-.379-.166-.66-.343-.857-.177-.196-.477-.302-.843-.302zm-5.188 1.359c-.216-.164-.505-.245-.86-.245H5.563v2.061h1.76c.162 0 .317-.014.462-.047.147-.032.278-.083.388-.159a.788.788 0 00.268-.298c.067-.126.1-.289.1-.486-.001-.386-.11-.66-.326-.826zM19.75 10c0 5.371-4.365 9.725-9.75 9.725S.25 15.371.25 10C.25 4.629 4.615.275 10 .275S19.75 4.629 19.75 10zm-7.89-2.573h3.036v-.74H11.86v.74zM10.185 11.5c0-.469-.112-.868-.34-1.203-.225-.331-.567-.564-1.028-.696.339-.16.592-.367.764-.618.171-.252.257-.567.257-.944 0-.348-.057-.643-.171-.878a1.45 1.45 0 00-.489-.572 2.125 2.125 0 00-.756-.308 4.606 4.606 0 00-.977-.095h-3.53v7.487h3.629c.335 0 .663-.042.979-.126.318-.083.603-.212.851-.388.246-.174.446-.4.593-.678.145-.275.218-.602.218-.981zm5.79-1.386a2.94 2.94 0 00-.477-1.029 2.398 2.398 0 00-.845-.718c-.345-.18-.746-.269-1.205-.269-.415 0-.79.074-1.13.221a2.69 2.69 0 00-.88.604 2.663 2.663 0 00-.567.909c-.132.35-.2.73-.2 1.135 0 .419.065.805.194 1.155.131.351.315.65.551.904.242.251.53.445.876.582.345.137.729.206 1.156.206.613 0 1.139-.14 1.57-.422.436-.28.756-.746.967-1.4h-1.312c-.05.169-.182.33-.398.481a1.327 1.327 0 01-.777.228c-.418 0-.74-.11-.963-.328-.224-.217-.369-.623-.369-1.052h3.912a3.837 3.837 0 00-.103-1.207z"
+                    ></path>
+                  </g></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <span class="sr-only">Medium</span>
+                <svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="Medium__Svg-sc-17kmvib-0 glMHgQ"
+                >
+                  <path
+                    d="M0 0h20v20H0V0zm4.773 6.689v5.938a.683.683 0 0 1-.182.59l-1.412 1.712v.225h4.002v-.225l-1.41-1.712a.708.708 0 0 1-.195-.59V7.491l3.512 7.663h.408l3.017-7.663V13.6c0 .163 0 .195-.107.301l-1.085 1.054v.225h5.27v-.225l-1.048-1.029a.313.313 0 0 1-.12-.3V6.067a.313.313 0 0 1 .12-.301l1.072-1.028v-.226h-3.713l-2.647 6.603-3.01-6.603H3.348v.226l1.254 1.51a.52.52 0 0 1 .17.44z"
+                    fill="#111314"
+                    fill-rule="nonzero"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <span class="sr-only">Instagram</span>
+                <svg
+                  width="20"
+                  height="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="Instagram__Svg-ydb73-0 cPVksj"
+                >
+                  <g
+                    fill="none"
+                    fill-rule="evenodd"
+                    stroke="none"
+                    stroke-width="1"
+                  >
+                    <circle cx="15" cy="5" r="1" fill="#141124"></circle>
+                    <path
+                      fill="#141124"
+                      fill-rule="nonzero"
+                      d="M14.5.75a4.75 4.75 0 014.75 4.75v9a4.75 4.75 0 01-4.75 4.75h-9A4.75 4.75 0 01.75 14.5v-9A4.75 4.75 0 015.5.75h9zm0 1.5h-9A3.25 3.25 0 002.25 5.5v9a3.25 3.25 0 003.25 3.25h9a3.25 3.25 0 003.25-3.25v-9a3.25 3.25 0 00-3.25-3.25zm-4.5 3a4.75 4.75 0 110 9.5 4.75 4.75 0 010-9.5zm0 1.5a3.25 3.25 0 100 6.5 3.25 3.25 0 000-6.5z"
+                    ></path>
+                  </g></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
